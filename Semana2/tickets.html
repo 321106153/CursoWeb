@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ticketmaster</title>
+    <link rel="icon" href="./concierto/ticketmaster.ico" type="image/ico">
+<body><div align="center">
+</head><h1>Ticketmaster 2.0</h1>
+<img src="./concierto/concierto.jpeg" alt="imagenC" width="600" height="400"></div>
+
+    <form action= "./recibirtickets.php" method="POST">
+        <fieldset>
+            <legend></legend>
+            <h2 style="font-size: 18px;">Datos de su evento</h2>
+                <label for="Artista">Artista:</label><br>
+                    <select id="Artista" name="Artista">
+                        <option value= 'System of a Down'>System of a down</option>
+                        <option value='Avenged Sevenfold'>Avenged Sevenfold</option>
+                        <option value="Ghost">Ghost</option> 
+                        <option value="Korn">Korn</option> 
+                    </select><br><br>
+            
+            <legend></legend>
+                <label for="Fecha">Fecha:</label><br>
+                    <select id="Fecha" name="Fecha">
+                        <option value="25 de mayo de 2023"> 25 de mayo de 2023</option>
+                        <option value="02 de junio de 2023">02 de junio de 2023</option>
+                        <option value="30 de octubre de 2023">30 de octubre de 2023</option> 
+                    </select><br><br>
+            
+            <legend></legend>       
+                <label for="Lugar">Lugar:</label><br>
+                    <select id="Lugar" name="Lugar">
+                        <option value="Auditorio BlackBerry"> Auditorio BlackBerry </option>
+                        <option value="Plaza Condesa">Plaza Condesa</option>
+                        <option value="Circo Volador">Circo Volador</option> 
+                        <option value="Arena">Arena Ciudad de Méxicor</option> 
+                    </select><br><br>
+                
+                <label for="Zona">Lugar:</label><br>
+                <select id="Zona" name="Zona">
+                    <option value="Pista"> Pista </option>
+                    <option value="Palco">Palco</option>
+                    <option value="Gradas">Gradas</option>
+                    <option value="Platea">Platea</option> 
+                </select><br><br>
+
+                <label>Número de boletos:
+                    <input type="text" name="Boletos"></input></label><br><br>
+
+
+
+            <h2 style="font-size: 18px;">Datos de contacto</h2>
+                <label>Nombre:
+                        <input type="text" name="Nombre"></input></label><br><br>
+
+                <label for="apellidos">Apellido:
+                        <input id="apellido" type="text" name="Apellido"></input></label><br><br>
+
+                <label>Correo electrónico:
+                    <input type="email" name="Correo"></input></label><br><br>
+
+                <label>Teléfono o celular: 
+                    <input type="tel" name="Teléfono"></input></label> <br><br> 
+                
+                <label for="Banco">Banco:</label>
+                    <select id="Banco" name="Banco">
+                        <option value="Banorte">Banorte</option>
+                        <option value="Scotiabank">Scotiabank</option>
+                        <option value="BBVA">BBVA</option>
+                    </select><br><br>
+
+                <label>Número de cuenta: 
+                        <input type="text" name="NúmeroCuenta"></input></label>
+    
+                </fieldset>
+    
+                <button type="submit">Comprar</button>
+                <button type="reset">Borrar</button>
+
+        </fieldset>
+    </form>
+</body>
+</html>
