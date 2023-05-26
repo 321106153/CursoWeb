@@ -1,0 +1,144 @@
+.titulo{
+    text-align:center;
+    font-family:'Courier New', Courier, monospace;
+
+}
+.fuente{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+.contenedor{
+    justify-content: center;
+    background-color: rgb(224, 154, 177);
+    padding: 2rem;
+    margin:auto;
+    border:1px solid black;
+    margin-bottom: 2rem;
+    width: 20%;
+    text-align: justify;
+    height:15rem;
+}
+
+body{
+    background-color: yellowgreen;
+}
+
+#main-container{
+    margin:auto;
+}
+
+
+table{
+    border-collapse: collapse;
+    padding: 100px;
+    text-align:center;
+}
+
+th, td{
+    border:solid 5px black;
+    padding: 20px;
+}
+
+tr:hover td{
+    background-color:chartreuse;
+    color:blueviolet;
+}
+
+.imagenes{
+    justify-content: center;
+}
+
+.card{
+    background-color:rgb(224, 154, 177);
+    padding: 2rem;
+    margin:auto;
+    border:1px solid black;
+    margin-bottom: 2rem;
+    width: 60%;
+    height:20rem;
+    text-align: center; 
+    overflow: scroll;
+}
+
+.contenedorHijo{
+    background-color:rgb(224, 154, 177);
+    padding: 1rem;
+    margin:0px auto;
+    border:1px solid black;
+    margin-bottom: 1rem;
+    width: 20%;
+    height:8rem;
+    text-align: center; 
+}
+
+img{
+    display: block;
+    margin: auto;
+}
+
+.tolkien{
+    background-color: rgb(224, 154, 177);
+    padding: 2rem;
+    margin:auto;
+    border:1px solid black;
+    margin-bottom: 2rem;
+    width: 30%;
+    text-align: justify;
+    height:20rem;
+    overflow: scroll;
+}
+
+.box{
+    margin:auto;
+    display:flex;
+    justify-content:center;
+}
+
+
+.triangulo{
+    margin: 50px;
+    position:relative;
+    width: 0px;
+    height:0px;
+    border-right:60px solid transparent;
+    border-bottom:104px solid black;
+    border-left:60px solid transparent;
+}
+
+.triangulo::before{
+    content:"";
+    position:absolute;
+    display:block;
+    border-right:60px solid transparent;
+    border-bottom:104px solid black;
+    border-left:60px solid transparent;
+    align-items: flex-start;
+    top:104px;
+    left:-120px;
+    
+}
+
+.triangulo::after{
+    content:"";
+    position:absolute;
+    display:block;
+    border-right:60px solid transparent;
+    border-bottom:104px solid black;
+    border-left:60px solid transparent;
+    align-items: flex-start;
+    top:104px;
+    
+}
+
+.enlaces{
+    color: purple;
+}
+
+h2{
+    text-align: center;
+}
+
+td{
+    text-align: justify;
+}
